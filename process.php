@@ -18,7 +18,7 @@
             $fname = htmlspecialchars($_POST['fname']);
             $lname = htmlspecialchars($_POST['lname']);
             $age = (int)$_POST['age'];
-            $contact = htmlspecialchars($_POST['contact']);
+            $contact = (int)$_POST['contact'];
             $address = htmlspecialchars($_POST['address']);
 
             if (!empty($fname) && !empty($lname) && !empty($age) && !empty($contact) && !empty($address)) {

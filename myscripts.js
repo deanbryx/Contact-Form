@@ -4,9 +4,6 @@ function validateForm() {
         alert('Please enter a valid age.');
         return false;
     }
-    return true;
-}
-function validateForm() {
     var contact = document.getElementById('contact').value;
 
     if (!/^\d{11}$/.test(contact)) {
